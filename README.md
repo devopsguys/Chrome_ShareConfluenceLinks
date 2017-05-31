@@ -2,10 +2,12 @@
 
 This extension provides a button that allows you to share links in Confluence.
 
-This is an alternative to the bookmarklet that you can place in the bookmarks toolbar.
-Personally, I keep my bookmark toolbar hidden for screen estate.
+![Preview image](preview.png)
 
-Currently the Confluence URL is hardcoded to devopsguys.atlassian.net.
+This is an alternative to the bookmarklet that you can place in the bookmarks toolbar.
+Personally, I keep my bookmark toolbar hidden for more screen estate.
+
+Currently the Confluence URL is hardcoded to https://devopsguys.atlassian.net.
 
 ## Installing
 

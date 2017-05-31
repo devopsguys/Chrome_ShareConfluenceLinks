@@ -4,6 +4,7 @@
   "name": "Share to Confluence",
   "description": "Share a link to Confluence",
   "version": "1.0",
+  "author": "Edmund Dipple <edmund.dipple@devopsguys.com>",
 
   "icons": {
     "48": "icon.png"
