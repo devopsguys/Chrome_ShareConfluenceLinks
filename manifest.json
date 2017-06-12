@@ -5,13 +5,15 @@
   "description": "Share a link to Confluence",
   "version": "1.0",
   "author": "Edmund Dipple <edmund.dipple@devopsguys.com>",
+  "options_page": "options.htm",
 
   "icons": {
     "48": "icon.png"
   },
 
   "permissions": [
-    "tabs", "<all_urls>"
+    "tabs", "<all_urls>",
+    "storage"
   ],
 
   "browser_action": {
