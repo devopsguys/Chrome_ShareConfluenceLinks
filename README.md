@@ -7,9 +7,11 @@ This extension provides a button that allows you to share links in Confluence.
 This is an alternative to the bookmarklet that you can place in the bookmarks toolbar.
 Personally, I keep my bookmark toolbar hidden for more screen estate.
 
-Currently the Confluence URL is hardcoded to https://devopsguys.atlassian.net.
+The default Confluence URL is https://devopsguys.atlassian.net but this can be changed in the Options page.
 
-## Installing
+The extension can be installed from the [Chrome Store](https://chrome.google.com/webstore/detail/share-to-confluence/pfcikaphgbfgnjkiicgcilekiggjmfaj?authuser=0)
+
+## Installing manually
 
 1. Download this repo as a zip file, unzip it somewhere.
 2. Browse to chrome://extensions
@@ -20,8 +22,3 @@ Currently the Confluence URL is hardcoded to https://devopsguys.atlassian.net.
 There will be a new icon in your extensions bar (right of the address bar).
 
 When you find a webpage that you want to share, click the icon.
-
-## Going forward...
-
-* Add an options page to remove hardcoded Confluence URL
-* Upload to the Chrome extensions store
