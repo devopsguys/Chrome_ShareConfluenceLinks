@@ -3,7 +3,7 @@
 
   "name": "Share to Confluence",
   "description": "Share a link to Confluence",
-  "version": "1.0",
+  "version": "2",
   "author": "Edmund Dipple <edmund.dipple@devopsguys.com>",
   "options_page": "options.htm",
 
