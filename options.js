@@ -1,8 +1,8 @@
 // Saves options to chrome.storage
 function save_options() {
-  var jira_url = document.getElementById('jira_url').value;
+  var confluence_url = document.getElementById('confluence_url').value;
   chrome.storage.sync.set({
-    jira_url: jira_url
+    confluence_url: confluence_url
   }, function() {
     // Update status to let user know options were saved.
     var status = document.getElementById('status');
@@ -16,11 +16,11 @@ function save_options() {
 // Restores select box and checkbox state using the preferences
 // stored in chrome.storage.
 function restore_options() {
-  // Use default value jira_url = 'devopsguys.atlassian.net'
+  // Use default value confluence_url = 'devopsguys.atlassian.net'
   chrome.storage.sync.get({
-    jira_url: 'devopsguys.atlassian.net'
+    confluence_url: 'devopsguys.atlassian.net'
   }, function(items) {
-    document.getElementById('jira_url').value = items.jira_url;
+    document.getElementById('confluence_url').value = items.confluence_url;
   });
 }
 document.addEventListener('DOMContentLoaded', restore_options);
